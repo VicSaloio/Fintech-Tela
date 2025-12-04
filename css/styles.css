@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Mono', sans-serif;
+} 
+
+body {
+    background-color: #0f0f0f; 
+}
+
+
+.form-card {
+    width: 420px;
+    background-color: #d8d8e3; 
+    border-radius: 10px;
+}
+
+
+.logo-img {
+    width: 130px;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.subtitulo {
+    margin-top: -10px;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+
+.input-custom {
+    background-color: #1a1e28;
+    color: white;
+    border: none;
+    padding: 12px;
+}
+
+.input-custom::placeholder {
+    color: #bec3cc;
+}
+
+
+.botao-cadastrar {
+    background-color: #e6d36b;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.botao-cadastrar:hover {
+    background-color: #d1be57;
+    border: 1px solid ;
+    box-shadow: 5px 5px 1px #d1be57;
+}
